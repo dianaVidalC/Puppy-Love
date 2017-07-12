@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/dianaVidalC/Puppy-Love/issues"
   },
-  "homepage": "https://github.com/dianaVidalC/Puppy-Love#readme"
+  "homepage": "https://github.com/dianaVidalC/Puppy-Love#readme",
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
 }
