@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.puppy-img{
+    width: 100%;
+}
+
+.back-green{
+    background-color: #21B2A6;
+}
+
+.texto-flex {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+/*---seccion generic---*/
+
+.generic{
+    background-color: #21B2A6;
+    height: 25rem;
+}
+
+.texto-on{
+    position: absolute;
+}
+
+.margin-up{
+    margin-top: 1rem;
+}
+
+.btn-center{
+    align-self: center;
+}
