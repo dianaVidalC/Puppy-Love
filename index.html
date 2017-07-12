@@ -5,42 +5,136 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="PUPPY LOVE">
+    <meta property="og:description" content="Puppy Love es una organización sin fines de lucro que busca el bienestar y un hogar para todos los perros. ¡Adopta un Puppy Love!">
+    <meta property="og:image" content="http://https://love-puppy.herokuapp.com/assets/images/banner.jpg">
     <link rel="stylesheet" href="assets/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--[if IE]>
+    <link rel="stylesheet" href="assets/css/main-explorer.css">
+    <![endif]-->
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Puppy Love</title>
 </head>
 <body>
     <nav>
         <div class="nav-wrapper">
+
             <a href="#" data-activates="mobile-demo" class="button-collapse right show-on-large"><i class="material-icons">menu</i></a>
             <ul class="side-nav back-green" id="mobile-demo">
-                <li><a href="sass.html">HOME</a></li>
-                <li><a href="badges.html">GENERIC</a></li>
-                <li><a href="collapsible.htiml">ELEMENTS</a></li>
-                <li><a href="mobile.html">SING UP</a></li>
-                <li><a href="mobile.html">LOG IN</a></li>
+                <li><a href="#portada">HOME</a></li>
+                <li><a href="#galery">GENERIC</a></li>
+                <li><a href="#details">ELEMENTS</a></li>
+                <li><a href="#">SING UP</a></li>
+                <li><a href="#">LOG IN</a></li>
             </ul>
         </div>
     </nav>
-    <section class="portada container-flex">
-        <img class="responsive-img puppy-img" src="assets/images/banner.jpg" alt="portada puppy love">
+    <section id="portada" class="portada container-flex">
+        <img class="responsive-img puppy-img hide-on-med-and-down" src="assets/images/banner.jpg" alt="portada puppy love">
+        <img class="responsive-img puppy-img hide-on-large-only" src="assets/images/pic05.jpg" alt="portada puppy love">
         <div class="texto-on texto-flex">
             <hr>
-            <h3>PUPPY LOVE</h3>
+            <h3 class="hide-on-med-and-down center-align">PUPPY LOVE</h3>
+            <h5 class="hide-on-large-only center-align">PUPPY LOVE</h5>
             <hr>
-            <p class="center-align margin-up">WE ARE HERE FOR PUPPIES</p>
-            <P class="center-align">PUPPIES ARE PURE LOVE</P>
-            <a class="waves-effect btn margin-up btn-center red">ADOPTE!</a>
+            <p class="center-align margin-up">ESTAMOS AQUÍ POR ELLOS</p>
+            <P class="center-align">QUIENES SON PURO AMOR</P>
+            <a class="waves-effect btn margin-up btn-center red">ADOPTA!</a>
         </div>
     </section>
-    <section class="generic container-flex">
+    <section class="descripcion container-flex">
         <div class="texto-flex center-align">
-            <h5>LOS CACHORROS SON EXCELENTES COMPAÑEROS</h5>
-            <h5>¡TENEMOS MUCHOS AMIGOS CANINOS QUE ESPERAN CONOCERTE!</h5>
-            <hr>
+            <h6>LOS CACHORROS SON EXCELENTES COMPAÑEROS</h6>
+            <h6>¡TENEMOS MUCHOS AMIGOS CANINOS QUE ESPERAN CONOCERTE!</h6>
+            <hr class="teal-1">
             <p>Nosotros le ayudaremos a encontrar un cachorro</p>
             <p>¡Visite nuestro centro de adopciones para encontrar un pequeño amigo y mucho amor</p>
+        </div>
+        <div class="icons icon-flex">
+            <img class="responsive-img" src="assets/images/icons/collar.svg" alt="icono collar de perro icono">
+            <img class="responsive-img" src="assets/images/icons/bone.svg" alt="icono huesito">
+            <img class="responsive-img" src="assets/images/icons/pet-plate.svg" alt="icono plato comida de perro">
+        </div>
+    </section>
+    <section id="galery" class="galery">
+        <div class="row no-margin">
+            <div class="col s12 m5 no-padd">
+                <img class="responsive-img" src="assets/images/pic01.jpg" alt="perro en skate">
+            </div>
+            <div class="col s12 m7 padd-text">
+                <h5>RESCATADOS</h5>
+                <p>Fueron rescatados del abandono o una mala crianza. Todos ellos han pasado por un proceso de socialización en los albergues, lo que garantiza su recuperación.</p>
+            </div>
+        </div>
+        <div class="row no-margin">
+            <div class="col s12 m7 padd-text">
+                <div class="col s12 m5 no-padd hide-on-large-only">
+                    <img class="responsive-img" src="assets/images/pic02.jpg" alt="perro en computador">
+                </div>
+                <h5>ÚNICOS</h5>
+                <p>Todos son sobrevivientes, son héroes con historias y experiencias que los hacen únicos.</p>
+            </div>
+            <div class="col s12 m5 no-padd hide-on-med-and-down">
+                <img class="responsive-img" src="assets/images/pic02.jpg" alt="perro en computador">
+            </div>
+        </div>
+        <div class="row no-margin">
+            <div class="col s12 m5 no-padd">
+                <img class="responsive-img" src="assets/images/pic03.jpg" alt="cachorro">
+            </div>
+            <div class="col s12 m7 padd-text">
+                <h5>NOBLES</h5>
+                <p>Un Puppy Love agradecerá siempre poder compartir su vida a tu lado. Será un a amigo fiel que te acompañará y alegrará tus días.</p>
+            </div>
+        </div>
+    </section>
+    <section id="details" class="details">
+        <div class="row">
+            <div class="col s12 center-align">
+                <h4>CONSEJOS Y CUIDADOS DE UN PUPPY LOVE</h4>
+                <hr class="indigo-1">
+                <p>Una mascota es parte muy importante de la familia.</p>
+                <p>Por eso tenemos recomendaciones que debes seguir y serás el afortunado dueño de un hermoso puppy love.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="adopta col m6 left-align">
+                    <img src="assets/images/icons/bone-rotate.svg" alt="icono huesito perro">
+                    <h6>ADOPTA</h6>
+                    <p>Serán tus mejores amigos, estarán contigo y serán parte de tu familia.</p>
+                </div>
+                <div class="apadrina col m6 left-align">
+                    <img src="assets/images/icons/pet-house.svg" alt="icono huesito perro">
+                    <h6>APADRINA</h6>
+                    <p>Puedes apadrinarlos, son amistosos, educados y necesitan tu apoyo.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="adopta col m6 left-align">
+                    <img src="assets/images/icons/pet.svg" alt="icono familia">
+                    <h6>UN GRAN BENEFICIO PARA TI</h6>
+                    <p>Son de gran beneficio para niños y adultos mayores, siempre que se decida cuidar de ellos en consciencia.</p>
+                </div>
+                <div class="apadrina col m6 left-align">
+                    <img src="assets/images/icons/track.svg" alt="icono huellita perro">
+                    <h6>DEBES SER RESPONSABLE</h6>
+                    <p>Implican una gran responsabilidad. Debemos tener en cuenta que tener una mascota supone unos costes económicos y una atención constante.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="adopta col m6 left-align">
+                    <img src="assets/images/icons/dog.svg" alt="icono  perro">
+                    <h6>ALIMENTACIÓN ADECUADA</h6>
+                    <p>Asegurate que su dieta vaya acorde a su edad y peso. Es importante para una buena calidad de vida.</p>
+                </div>
+                <div class="apadrina col m6 left-align">
+                    <img src="assets/images/icons/track-two.svg" alt="icono huellitas perro">
+                    <h6>ESPACIOS IDÓNEOS</h6>
+                    <p>Proporcionale un espacio donde pueda jugar, descansar, desenvolverse y ser parte activa de tu familia.</p>
+                </div>
+            </div>
         </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

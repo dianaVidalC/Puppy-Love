@@ -15,6 +15,7 @@
 
 .puppy-img{
     width: 100%;
+    height: 40rem;
 }
 
 .back-green{
@@ -27,21 +28,87 @@
     color: #fff;
 }
 
-/*---seccion generic---*/
+/*---seccion descripcion---*/
 
-.generic{
+.btn-center{
+    align-self: center;
+}
+
+.descripcion{
+    padding: 3.5rem;
     background-color: #21B2A6;
     height: 25rem;
 }
 
-.texto-on{
-    position: absolute;
+.icon-flex{
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    margin:2rem;
+}
+
+.icons img{
+    margin:2rem;
 }
 
 .margin-up{
     margin-top: 1rem;
 }
 
-.btn-center{
-    align-self: center;
+.teal-1{
+    margin:1rem 0;
+    border: 1px solid#26a69a;
+}
+.texto-on{
+    position: absolute;
+}
+
+/*---seccion galery----*/
+
+.galery{
+    background-color: #242C33;
+    color: #fff;
+}
+
+.no-margin{
+    margin-bottom: 0!important;
+}
+
+.no-padd{
+    padding: 0!important;
+}
+.padd-text{
+    padding: 6rem 2rem !important;
+}
+
+@media (max-width: 760px) {
+
+    .padd-text{
+        padding: 2rem 1rem !important;
+        text-align: center;
+    }
+}
+/*----seccion details----*/
+
+.details{
+    padding: 2rem 4rem;
+    background-color: #505393;
+    color: #fff;
+}
+
+.adopta,
+.apadrina{
+    padding: 2rem!important;
+}
+
+@media (max-width: 760px) {
+    .adopta,
+    .apadrina{
+        text-align: center;
+    }
+}
+
+.indigo-1{
+    margin:1rem 0;
+    border: 1px solid#5c6bc0;
 }

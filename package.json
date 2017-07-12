@@ -1,0 +1,25 @@
+{
+  "name": "puppy-love",
+  "version": "1.0.0",
+  "description": "proyecto semana final",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianaVidalC/Puppy-Love.git"
+  },
+  "keywords": [
+    "express",
+    "js",
+    "css",
+    "html"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dianaVidalC/Puppy-Love/issues"
+  },
+  "homepage": "https://github.com/dianaVidalC/Puppy-Love#readme"
+}
